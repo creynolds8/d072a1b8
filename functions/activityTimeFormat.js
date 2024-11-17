@@ -1,4 +1,7 @@
-const activityTime = (hours, minutes) => {
+const activityTime = (timestamp) => {
+  const date = new Date(timestamp)
+  const hours = date.getHours();
+  const minutes = date.getMinutes();
   let activityTimeString = "";
   if (hours > 12) {
     activityTimeString += `${hours - 12}`
