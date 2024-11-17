@@ -13,6 +13,7 @@
   width: 376px;
   height: 666px;
   z-index: 100;
+  position: fixed;
 
   background: white;
   border-radius: 3px;
@@ -23,3 +24,23 @@
   padding: 20px;
 }
 
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.activity-list {
+  height: 586px;
+  overflow: scroll;
+}
+
+button {
+  border: none;
+  background-color: white;
+}

@@ -1,0 +1,16 @@
+.activity-item {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  height: auto;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+.time {
+  width: 48px;
+  margin-left: 16px;
+}
+.number {
+  margin: auto;
+  margin-left: 64px;
+}
