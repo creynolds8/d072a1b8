@@ -21,12 +21,12 @@ const ActivityItem = ({ activity }) => {
       <span className="number">
         {activity.direction === "inbound" ? `Call from: ${activity.from}` : `Call to: ${activity.to}`}
       </span>
-      <button onClick={toggleDetails}>
-        <img src="public/assets/3-dots.svg" height="16px" alt="" />  
-      </button>
       <span className="time">
         {activityTime(activity.created_at)}
       </span>
+      <button onClick={toggleDetails}>
+        <img src="public/assets/3-dots.svg" height="16px" alt="" />  
+      </button>
     </div>
       {activityDetails && <ActivityDetails activity={activity} />}
     </div>

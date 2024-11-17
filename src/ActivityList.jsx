@@ -11,6 +11,7 @@ const ActivityList = ({ activities }) => {
 
   return (
     <div className="activity-list">
+      <h2>Activity List</h2>
       {activityComponents}
     </div>
   );

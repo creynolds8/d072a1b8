@@ -38,9 +38,17 @@
 .activity-list {
   height: 586px;
   overflow: scroll;
+  h2 {
+    width: fit-content;
+    margin: auto;
+    padding: 1rem;
+  }
 }
 
 button {
   border: none;
   background-color: white;
+  padding: 0;
+  width: auto;
+  height: auto;
 }

@@ -9,7 +9,7 @@ const ActivityDetails = ({ activity }) => {
     <div className="row activity-details">
       <div className="col">
         <span>
-
+          Call Details:
         </span>
         <span>
           {dateFormat(activity.created_at)}
